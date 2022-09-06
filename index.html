@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main-page">
+        <nav class="menu">
+          <ul class="menu-list container" id="yak">
+            <li>
+              <a class="menu-link" href="#content">Мои работы</a>
+            </li>
+            <li>
+              <a class="menu-link" href="#5">Сертификаты</a>
+            </li>
+            <li>
+              <a class="menu-link" href="#footer">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="center-block container">
+          <div class="about-me-block">
+            <h1 class="about-me-block__heading">Анна Уманская</h1>
+            <p class="about-me-block__text">Front-end Developer</p>
+            <button class="slide_from_left">Обо мне</button>
+            <div class="info-window hidden">
+              <i class="fas fa-times close-info-window"></i>
+              <h1>Обо мне</h1>
+              <p class="info-window__text">
+                Привет! Меня зовут Анна. Живу в Москве.
+              </p>
+              <p class="info-window__text">
+                Я - Front-end Developer.<br />
+                В работе всегда совмещаю красивый код со своим внутренним
+                перфекционистом :)
+              </p>
+              <p class="info-window__text">
+                В 2022-ом году окончила обучение Front-end разработке, в наличии
+                диплом о профессиональной переподготовке. В своем арсенале имею
+                много кейсов. С самыми основными Вы можете ознакомиться здесь.
+              </p>
+              <p class="info-window__text">
+                Использую: Vue.js, JavaScript, Node.JS, React.JS, TypeScript,
+                Webpack<br />
+                HTML, CSS, SASS/SCSS, Vuetify, Bootstrap, Photoshop, Figma,
+                Adobe XD, Zeplin.
+              </p>
+            </div>
+          </div>
+          <div class="contacts-bar">
+            <a
+              class="contact-link"
+              href="https://t.me/MsNaily"
+              class="contact-icon"
+              ><i class="fab fa-telegram"></i
+            ></a>
+            <a
+              class="contact-link"
+              href="https://github.com/Anna-Naily"
+              class="contact-icon"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="bottom-center-block container">
+          <div class="arrow-7">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="content-page" id="content">
+        <div class="portfolio-block container">
+          <h1 class="portfolio-block__heading">Мои работы</h1>
+          <div class="portfolio-block__item">
+            <a
+              class="image-block"
+              href="https://languageportalf.herokuapp.com/"
+            >
+              <img class="image-block__img" src="img/helptense.jpg" />
+              <span class="image-block__span">HELPTENSE</span>
+            </a>
+            <button class="right" id="1">О проекте</button>
+            <div class="discription-case hidden" id="1">
+              <i class="fas fa-times close-discription"></i>
+              <h1 class="heading-case">
+                Сервис для изучения английского языка
+              </h1>
+              <h2 class="heading-text-case">Задача</h2>
+              <p class="text-case">
+                Разработка интерактивного веб-приложения для изучения
+                английского языка разного уровня сложности для детей и взрослых.
+              </p>
+              <h2 class="heading-text-case">Описание проекта</h2>
+              <p class="text-case">
+                Сервис был разработан командой разработчиков из 4-х человек с
+                использованием SCRUM. Моя роль: Front-end разработчик.
+              </p>
+              <h2 class="heading-text-case">Реализация</h2>
+              <p class="text-case">
+                Сервис включает в себя разделы: учебные материалы, словарь,
+                интерактивный (обучение с помощью песен, обучение по фильмам и
+                видео, тестирование, разговорник, перевод на время, проверка на
+                знание слов), обучение по программам ( начальный уровень,
+                средний, продвинутый). Также имеется личный профиль, в который
+                входят: авторизация/регистрация, личный кабинет, мой словарь.
+                Программы обучения позволят учащимся пройти всё обучение
+                поэтапно и завершить закрепленные знания тестированием.
+              </p>
+              <h2 class="heading-text-case">Инструменты</h2>
+              <p class="text-case">
+                JS, Vue Js, HTML, CSS, SCSS, Github, Figma
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-block__item">
+            <a
+              class="image-block"
+              href="https://www.behance.net/gallery/148996927/Online-Store"
+            >
+              <img class="image-block__img" src="img/verstka.png" />
+              <span class="image-block__span">Online Store</span>
+            </a>
+            <button class="right" id="2">О проекте</button>
+            <div class="discription-case hidden" id="2">
+              <i class="fas fa-times close-discription"></i>
+              <h1 class="heading-case">Интернет-магазин</h1>
+              <h2 class="heading-text-case">Задача</h2>
+              <p class="text-case">
+                Разработка онлайн-сервиса с возможностью заказывать товар из
+                каталога. Необходимо было сверстать по макетам + разработать
+                функционал frontend и backend (Node.js) частей + сборка проекта
+                Webpack.
+              </p>
+              <h2 class="heading-text-case">Реализация</h2>
+              <p class="text-case">
+                Сервис состоит из нескольких страниц. Основной функционал в
+                корзине: при нажатии на товар, каждая его единица добавляется в
+                корзину, меняется стоимость, есть возможность редактирования
+                списка покупок.
+              </p>
+              <h2 class="heading-text-case">Инструменты</h2>
+              <p class="text-case">
+                Vue.JS, JavaScript, HTML, CSS, Node.JS, Webpack, Zeplin, Figma,
+                Github.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-block__item">
+            <a class="image-block" href="http://sanyas91.beget.tech/">
+              <img class="image-block__img" src="img/vueproject.png" />
+              <span class="image-block__span">Personal finance app</span>
+            </a>
+            <button class="right" id="3">О проекте</button>
+            <div class="discription-case hidden" id="3">
+              <i class="fas fa-times close-discription"></i>
+              <h1 class="heading-case">Приложение для личных финансов</h1>
+              <h2 class="heading-text-case">Задача</h2>
+              <p class="text-case">
+                Разработка веб-приложения для контроля финансовых расходов.
+              </p>
+              <h2 class="heading-text-case">Описание проекта</h2>
+              <p class="text-case">
+                Веб-приложение, выполненное на Vue JS, которое позволяет
+                наглядно видеть финансовые расходы. Внутри кода написан
+                unit-тест.
+              </p>
+              <h2 class="heading-text-case">Реализация</h2>
+              <p class="text-case">
+                В веб-приложении есть возможность добавлять новые категории
+                расходов, изменять стоимости, указывать конкретную дату, а также
+                редактировать уже существующие. Диаграмма создана для визуальной
+                наглядности расходов из списка. Сверху расположены уже готовые
+                категории для ускорения процесса заполнения.
+              </p>
+              <h2 class="heading-text-case">Инструменты</h2>
+              <p class="text-case">
+                Vue Js, Vuetify, Vuex, Vue Test Utils, HTML, CSS, Github.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-block__item">
+            <a class="image-block" href="http://chatreact.h1n.ru/">
+              <img class="image-block__img" src="img/chat.png" />
+              <span class="image-block__span">Chat</span>
+            </a>
+            <button class="right" id="4">О проекте</button>
+            <div class="discription-case hidden" id="4">
+              <i class="fas fa-times close-discription"></i>
+              <h1 class="heading-case">Чат для общения.</h1>
+              <h2 class="heading-text-case">Задача</h2>
+              <p class="text-case">
+                Разработка чата на React с регистрацией и авторизацией.
+              </p>
+              <h2 class="heading-text-case">Описание проекта</h2>
+              <p class="text-case">Чат был разработан в учебных целях.</p>
+              <h2 class="heading-text-case">Реализация</h2>
+              <p class="text-case">
+                В веб-приложении добавлена регистрация и авторизация, после
+                которых становится доступен чат. Есть возможность самостоятельно
+                добавлять диалоговое окно, отправлять сообщения, изменять свое
+                имя.
+              </p>
+              <h2 class="heading-text-case">Инструменты</h2>
+              <p class="text-case">
+                React.Js, Redux, Firebase, HTML, CSS, Github.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-block__item">
+            <a class="image-block" href="http://l91536s1.beget.tech/index.html">
+              <img class="image-block__img" src="img/first-project.png" />
+              <span class="image-block__span">Website responsive layout</span>
+            </a>
+            <button class="right" id="2">О проекте</button>
+            <div class="discription-case hidden" id="2">
+              <i class="fas fa-times close-discription"></i>
+              <h1 class="heading-case">
+                Респонсивная верстка интернет-магазина
+              </h1>
+              <h2 class="heading-text-case">Задача</h2>
+              <p class="text-case">
+                Сверстать главную страницу интернет-магазина по макету и сделать
+                респонсивным под разные размеры экрана.
+              </p>
+              <h2 class="heading-text-case">Инструменты</h2>
+              <p class="text-case">HTML, CSS, SASS, Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="certificate-block container">
+        <button class="right certificate-heading" id="5">Сертификаты</button>
+        <div class="hidden" id="certs">
+          <object>
+            <embed
+              src="img/certificates/osnovi.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/nachalniy lvl.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Основы программирования.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Золотой сертификат HTML.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Проф верстка.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/JavaScript 1 уровень.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат продвинутый js.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат Vue js.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат React.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат NodeJs.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат TypeScript.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат Web проект.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат Linux.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/MySQL.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат Agile, Scrum теория.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Сертификат Командная разработка по методологии SCRUM.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/git.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+          <object>
+            <embed
+              src="img/certificates/Тестирование JS.pdf"
+              width="500"
+              height="375"
+              type="application/pdf"
+            />
+          </object>
+        </div>
+      </div>
+      <footer>
+        <div class="block-footer container" id="footer">
+          <a href="#" class="to-top">Вернуться</a>
+          <div class="footer-contacts">
+            <a href="https://t.me/MsNaily" class="text-contact">Telegram</a>
+            <a href="https://github.com/Anna-Naily" class="text-contact"
+              >Github</a
+            >
+          </div>
+          <p class="text-copy">&COPY;2022 &ensp;Anna Umanskaya</p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/openWindow.js"></script>
+    <script src="js/openBlockCertificate.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#yak').on('click', 'a', function (event) {
+          event.preventDefault();
+          var id = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({ scrollTop: top }, 800);
+        });
+      });
+    </script>
+  </body>
+</html>
